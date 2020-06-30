@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "486404240586",
+    "firebase_url": "https://amigosproject-627d5.firebaseio.com",
+    "project_id": "amigosproject-627d5",
+    "storage_bucket": "amigosproject-627d5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:486404240586:android:c546058872d440885f3033",
+        "android_client_info": {
+          "package_name": "com.example.amigosproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "486404240586-eb2s0b3gqtnhulp7f1c70dhgu6k6ap1h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjsa7VgVgoS5xV8K058iX_yzs2rfRjqXE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "486404240586-eb2s0b3gqtnhulp7f1c70dhgu6k6ap1h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

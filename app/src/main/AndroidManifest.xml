@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.amigosproject">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".cardview8"></activity>
+        <activity android:name=".cardview7" />
+        <activity android:name=".cardview6" />
+        <activity android:name=".cardview5" />
+        <activity android:name=".cardview4" />
+        <activity android:name=".cardview3" />
+        <activity android:name=".cardview2" />
+        <activity android:name=".cardview1" />
+        <activity android:name=".EditProfile" />
+        <activity android:name=".UploadFile" />
+        <activity android:name=".Home" />
+        <activity android:name=".Fragmentmain" />
+        <activity android:name=".Item6" />
+        <activity android:name=".Item5" />
+        <activity android:name=".Item4" />
+        <activity android:name=".Item3" />
+        <activity android:name=".Item2" />
+        <activity android:name=".Item1" />
+        <activity android:name=".Category" />
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Login" />
+        <activity android:name=".Register" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/ik1"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Home">
+
+    <LinearLayout
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/dsecond"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:text="MyAmigos"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <ViewFlipper
+        android:id="@+id/imagBanner"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+
+    </ViewFlipper>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/i"
+        android:text="On Sale till 28,July 2020"
+        android:textColor="#ffff"
+        android:textSize="20dp" />
+
+    <GridLayout
+        android:layout_width="400dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/top"
+        android:columnCount="5"
+        android:rowCount="3">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card1"
+            android:layout_width="38dp"
+            android:layout_height="1dp"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="60dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center"
+
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/p5"/>
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="ID: B101, In Stock"
+                    android:textSize="7dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Price: 2250"
+                    android:textSize="7dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Size: S, M, L, XL, XXL, XXXL"
+                    android:textSize="7dp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="38dp"
+            android:id="@+id/cardview2"
+            android:layout_height="15dp"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="60dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center"
+
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/s9" />
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="ID: S101, In Stock"
+                    android:textSize="7dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Price: 550"
+                    android:textSize="7dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Size: S, M, L, XL, XXL, XXXL"
+                    android:textSize="7dp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardview3"
+            android:layout_width="38dp"
+            android:layout_height="15dp"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:layout_column="2"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="60dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center"
+
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/j1" />
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="ID: J101, In Stock"
+                    android:textSize="7dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Price: 1250"
+                    android:textSize="7dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Size: S, M, L, XL, XXL, XXXL"
+                    android:textSize="7dp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="38dp"
+            android:id="@+id/cardview4"
+            android:layout_height="15dp"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:layout_column="3"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="60dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center"
+
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/s15" />
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="ID: P101, In Stock"
+                    android:textSize="7dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Price: 1050"
+                    android:textSize="7dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Size: S, M, L, XL, XXL, XXXL"
+                    android:textSize="7dp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="38dp"
+            android:id="@+id/cardview5"
+            android:layout_height="15dp"
+            android:layout_row="1"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="60dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center"
+
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/s8" />
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="ID: S101, In Stock"
+                    android:textSize="7dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Price: 550"
+                    android:textSize="7dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Size: S, M, L, XL, XXL, XXXL"
+                    android:textSize="7dp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardview6"
+            android:layout_width="38dp"
+            android:layout_height="15dp"
+            android:layout_row="1"
+            android:layout_rowWeight="1"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="60dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center"
+
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/s23" />
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="ID: Sh101, In Stock"
+                    android:textSize="7dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Price: 1250"
+                    android:textSize="7dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Size: S, M, L, XL, XXL, XXXL"
+                    android:textSize="7dp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardview7"
+            android:layout_width="38dp"
+            android:layout_height="15dp"
+            android:layout_row="1"
+            android:layout_rowWeight="1"
+            android:layout_column="2"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="60dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center"
+
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/s24" />
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="ID: Sh101, In Stock"
+                    android:textSize="7dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Price: 1550"
+                    android:textSize="7dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Size: S, M, L, XL, XXL, XXXL"
+                    android:textSize="7dp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardview8"
+            android:layout_width="38dp"
+            android:layout_height="15dp"
+            android:layout_row="1"
+            android:layout_rowWeight="1"
+            android:layout_column="3"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="60dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center"
+
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/s3" />
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="ID: St101, In Stock"
+                    android:textSize="7dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Price: 950"
+                    android:textSize="7dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Size: S, M, L, XL, XXL, XXXL"
+                    android:textSize="7dp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </GridLayout>
+</LinearLayout>
